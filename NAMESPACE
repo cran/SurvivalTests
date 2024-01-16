@@ -1,0 +1,13 @@
+export(SANOVA, Spaircomp, weibull.test, Sdescribe, plot.Sdescribe)
+S3method(Spaircomp,default)
+S3method(Spaircomp,survtests)
+S3method(plot,Sdescribe)
+importFrom("stats", model.frame, complete.cases, optimize, pgamma, qnorm, rexp, rnorm, var, p.adjust, median, quantile, sd)
+importFrom("utils", combn)
+importFrom("ggplot2", ggplot, aes, geom_point, geom_errorbar, ggtitle, ylab, xlab, ylim, theme_bw)
+importFrom("weibullness", wp.test)
+
+
+
+
+
